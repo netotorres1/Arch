@@ -1,0 +1,59 @@
+import styled from 'styled-components'
+import {tablet, mobile} from './../../responsive'
+
+export const Container = styled.div`
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+`
+export const ContainerContent = styled.div`
+    width: 75%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px;
+    ${tablet({justifyContent: 'space-between'})};
+    ${mobile({width: '380px'})};
+ 
+`
+
+export const LogoBtn = styled.img`
+    margin-right: 20px;
+    ${mobile({height: '40px'})};
+    ${mobile({marginTop: '10px'})};
+`
+
+export const ContainerNavbar = styled.nav`
+    font-family: 'League Spartan', sans-serif;
+    ${tablet({display: 'flex'})};
+    ${mobile({display: 'none'})};
+    ${mobile({flexDirection: 'column'})};
+    ${mobile({position: 'absolute'})};
+    ${mobile({top: '100px'})};
+    ${mobile({left: '30px'})};
+    ${mobile({fontWeight: 'bold'})};
+    
+    ${mobile({background: '#c8ccd8'})};
+    ${mobile({width: '320px'})};
+    ${mobile({zIndex: '5'})};
+    &.open{
+        ${mobile({display: 'flex'})};
+    }
+    
+`
+export const BtnNavbar = styled.button`
+    padding: 25px;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    color: #7d828f;
+`
+
+export const BtnMenuMobile = styled.button`
+    display: none;
+    ${mobile({display: 'flex'})};
+    ${mobile({marginTop: '10px'})};
+    ${mobile({background: 'transparent'})};
+    ${mobile({border: 'none'})};
+`
