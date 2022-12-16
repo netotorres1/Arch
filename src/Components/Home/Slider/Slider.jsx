@@ -7,10 +7,10 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
-import Paramour from './../../assets/home/desktop/image-hero-paramour.jpg'
-import Seraph from './../../assets/home/desktop/image-hero-seraph.jpg'
-import Federal from './../../assets/home/desktop/image-hero-federal.jpg'
-import Trinity from './../../assets/home/desktop/image-hero-trinity.jpg'
+import Paramour from './../../../assets/home/desktop/image-hero-paramour.jpg'
+import Seraph from './../../../assets/home/desktop/image-hero-seraph.jpg'
+import Federal from './../../../assets/home/desktop/image-hero-federal.jpg'
+import Trinity from './../../../assets/home/desktop/image-hero-trinity.jpg'
 
 const Slider = () => {
   return (

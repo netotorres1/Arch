@@ -1,7 +1,6 @@
 import styled from "styled-components";
-import ImageSmallTeam from './../../assets/home/desktop/image-small-team.jpg'
-import ImageSmallTeamTablet from './../../assets/home/tablet/image-small-team.jpg'
-import {tablet, mobile} from './../../responsive'
+import ImageSmallTeam from './../../../assets/home/desktop/image-small-team.jpg'
+import {tablet, mobile} from './../../../responsive'
 
 export const Container = styled.div`
     width: 100vw;

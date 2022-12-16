@@ -1,10 +1,12 @@
-import Navbar from './../../Components/Navbar/Navbar'
-import Footer from './../../Components/Footer/Footer'
+import Navbar from './../../Components/Shared/Navbar/Navbar'
+import Footer from './../../Components/Shared/Footer/Footer'
+import PortifolioComponent from '../../Components/PortifolioComponent/PortifolioComponent'
 
 const Portifolio = () => {
     return(
         <div>
             <Navbar />
+            <PortifolioComponent/>
             <Footer />
         </div>
     )

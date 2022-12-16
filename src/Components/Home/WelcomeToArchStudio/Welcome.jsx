@@ -1,6 +1,6 @@
 import React from 'react'
 import {Container, ContainerWelcome, ContainerContent, Title, ContainerText, ContainerLeft, TitleContainerleft, TextContainerLeft, ContainerRight, ImgContainerRight} from './style'
-import ImageWelcome from './../../assets/home/desktop/image-welcome.jpg'
+import ImageWelcome from './../../../assets/home/desktop/image-welcome.jpg'
 
 const Welcome = () => {
   return (

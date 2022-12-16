@@ -1,8 +1,8 @@
 import styled from 'styled-components'
-import DelSol from './../../assets/portfolio/desktop/image-del-sol.jpg'
-import Image228b from './../../assets/portfolio/desktop/image-228b.jpg'
-import prototype from './../../assets/portfolio/desktop/image-prototype.jpg'
-import {tablet, mobile } from './../../responsive'
+import DelSol from './../../../assets/portfolio/desktop/image-del-sol.jpg'
+import Image228b from './../../../assets/portfolio/desktop/image-228b.jpg'
+import prototype from './../../../assets/portfolio/desktop/image-prototype.jpg'
+import {tablet, mobile } from './../../../responsive'
 
 export const Container = styled.div`
     width: 100vw;

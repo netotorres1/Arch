@@ -1,7 +1,8 @@
 import React, {useState} from 'react'
 import {Container, ContainerContent, LogoBtn, ContainerNavbar, BtnNavbar, BtnMenuMobile} from './style'
-import Logo from './../../assets/logo.svg'
+import Logo from './../../../assets/logo.svg'
 import {MdMenu, MdClose} from 'react-icons/md'
+import {Link} from 'react-router-dom'
 
 const Navbar = () => {
 
@@ -14,9 +15,9 @@ const Navbar = () => {
   return (
     <Container>
         <ContainerContent>
-            <LogoBtn src={Logo} />
+            <Link to={'/'} ><LogoBtn src={Logo} /></Link>
             <ContainerNavbar className={openMenu !== true ? '' : 'open'}>
-                <BtnNavbar>Portfolio</BtnNavbar>
+                <Link to={'/portifolio'}><BtnNavbar>Portfolio</BtnNavbar></Link>
                 <BtnNavbar>About Us</BtnNavbar>
                 <BtnNavbar>Contact</BtnNavbar>
             </ContainerNavbar>
