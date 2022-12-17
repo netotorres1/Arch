@@ -48,6 +48,11 @@ export const BtnNavbar = styled.button`
     border: none;
     font-weight: bold;
     color: #7d828f;
+
+    &:hover{
+        cursor: pointer;
+        color: black;
+    }
 `
 
 export const BtnMenuMobile = styled.button`

@@ -1,7 +1,19 @@
 import styled from 'styled-components'
+
+
 import DelSol from './../../../assets/portfolio/desktop/image-del-sol.jpg'
+import DelSolTablet from './../../../assets/portfolio/tablet/image-del-sol.jpg'
+import DelSolMobile from './../../../assets/portfolio/mobile/image-del-sol.jpg'
+
+
 import Image228b from './../../../assets/portfolio/desktop/image-228b.jpg'
+import Image228bTablet from './../../../assets/portfolio/tablet/image-228b.jpg'
+import Image228bMobile from './../../../assets/portfolio/mobile/image-228b.jpg'
+
 import prototype from './../../../assets/portfolio/desktop/image-prototype.jpg'
+import prototypeTablet from './../../../assets/portfolio/tablet/image-prototype.jpg'
+import prototypeMobile from './../../../assets/portfolio/mobile/image-prototype.jpg'
+
 import {tablet, mobile } from './../../../responsive'
 
 export const Container = styled.div`
@@ -17,6 +29,7 @@ export const Container = styled.div`
 
 export const ContainerContent = styled.div`
     width: 75%;
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -37,8 +50,11 @@ export const Project1 = styled.div`
     flex-direction: column;
     justify-content: space-between;
     ${tablet({width: '80%'})};
-    ${tablet({height: '50%'})};
-    ${tablet({marginBottom: '20px'})};
+    ${tablet({height: '250px'})};
+    ${tablet({marginBottom: '40px'})};
+    ${tablet({backgroundImage: `url(${DelSolTablet})`})};
+
+    ${mobile({backgroundImage: `url(${DelSolMobile})`})};
 
 `
 
@@ -51,8 +67,11 @@ export const Project2 = styled.div`
     flex-direction: column;
     justify-content: space-between;
     ${tablet({width: '80%'})};
-    ${tablet({height: '50%'})};
-    ${tablet({marginBottom: '20px'})};
+    ${tablet({height: '250px'})};
+    ${tablet({marginBottom: '40px'})};
+    ${tablet({backgroundImage: `url(${Image228bTablet})`})};
+
+    ${mobile({backgroundImage: `url(${Image228bMobile})`})};
 `
 
 export const Project3 = styled.div`
@@ -64,8 +83,11 @@ export const Project3 = styled.div`
     flex-direction: column;
     justify-content: space-between;
     ${tablet({width: '80%'})};
-    ${tablet({height: '50%'})};
-    ${tablet({marginBottom: '20px'})};
+    ${tablet({height: '250px'})};
+    ${tablet({marginBottom: '40px'})};
+    ${tablet({backgroundImage: `url(${prototypeTablet})`})};
+
+    ${mobile({backgroundImage: `url(${prototypeMobile})`})};
 `
 
 export const ContainerText = styled.div`
@@ -76,12 +98,15 @@ export const ContainerText = styled.div`
    
 `
 
-export const Title = styled.h2``
+export const Title = styled.h2`
+    text-shadow:2px 2px 5px #000000;
+`
 
 export const LinkProjects = styled.button`
     background-color: transparent;
     border: none;
     color: white;
+    text-shadow:2px 2px 5px #000000;
 `
 
 export const Number = styled.h2`
@@ -120,6 +145,13 @@ export const BtnSeeAll = styled.button`
     color: white;
     font-weight: bold;
     background-color: #1b1d23;
+    
+    &:hover{
+        cursor: pointer;
+        background-color: #717987;
+        border: none;
+    }
+
     ${mobile({display: 'none'})};
 `
 export const BtnSeeAll2 = styled.button`

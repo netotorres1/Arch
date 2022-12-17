@@ -44,6 +44,7 @@ export const Title = styled.h2`
     font-size: 50px;
     color: white;
     font-family: 'League Spartan', sans-serif;
+    margin-bottom: 20px;
 
     ${mobile({fontSize: '35px'})};
     ${mobile({marginBottom: '20px'})};
@@ -58,5 +59,11 @@ export const Btn = styled.button`
     border: none;
     font-weight: bold;
     font-family: 'League Spartan', sans-serif;
+
+    &:hover{
+        background-color: #2A3643;
+        cursor: pointer;
+        border: none;
+    }
 `
 

@@ -1,5 +1,6 @@
 import React from 'react'
 import {Container, ContainerContent, Img, ContainerText, Title, Btn} from './style'
+import { Link } from 'react-router-dom'
 
 const AboutUs = () => {
   return (
@@ -7,7 +8,7 @@ const AboutUs = () => {
         <ContainerContent>
             <ContainerText>
                 <Title>Small Team, Big Ideas</Title>
-                <Btn>About Us</Btn>
+                <Link to={'/about'}><Btn>About Us</Btn></Link>
             </ContainerText>
         </ContainerContent>
     </Container>

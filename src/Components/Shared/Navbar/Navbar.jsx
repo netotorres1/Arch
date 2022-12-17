@@ -18,7 +18,7 @@ const Navbar = () => {
             <Link to={'/'} ><LogoBtn src={Logo} /></Link>
             <ContainerNavbar className={openMenu !== true ? '' : 'open'}>
                 <Link to={'/portifolio'}><BtnNavbar>Portfolio</BtnNavbar></Link>
-                <BtnNavbar>About Us</BtnNavbar>
+                <Link to={'/about'}><BtnNavbar>About Us</BtnNavbar></Link>
                 <BtnNavbar>Contact</BtnNavbar>
             </ContainerNavbar>
             <BtnMenuMobile onClick={handleOpen}>

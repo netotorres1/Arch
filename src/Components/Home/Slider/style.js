@@ -77,6 +77,12 @@ export const Btn = styled.button`
     color: white;
     font-size: 17px;
     border: none;
+
+    &:hover{
+        cursor: pointer;
+        background-color: #717987;
+    }
+
     font-family: 'League Spartan', sans-serif;
     ${tablet({width: '150px'})};
     ${tablet({height: '50px'})};

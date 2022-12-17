@@ -55,6 +55,11 @@ export const NavItem = styled.button`
     font-weight: bold;
     border: none;
     color: #7d828f;
+
+    &:hover{
+        color: black;
+        cursor: pointer;
+    }
 `
 
 export const BtnPortifolio = styled.button`
@@ -64,6 +69,12 @@ export const BtnPortifolio = styled.button`
     color: white;
     font-weight: bold;
     position: relative;
+
+    &:hover{
+        cursor: pointer;
+        background-color: #717987;
+        border: none;
+    }
     right: 40px;
     ${tablet({right: '30px'})}; 
     ${tablet({border: 'none'})};
