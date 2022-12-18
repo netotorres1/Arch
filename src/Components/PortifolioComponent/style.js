@@ -78,7 +78,6 @@ export const Row = styled.div`
 export const SeraphStation = styled.div`
     height: 500px; 
     width: 30%;
-    background-color: red;
     background-image: url(${Seraph});
     background-size: cover;
 

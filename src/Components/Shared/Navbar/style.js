@@ -22,6 +22,10 @@ export const LogoBtn = styled.img`
     margin-right: 20px;
     ${mobile({height: '40px'})};
     ${mobile({marginTop: '10px'})};
+
+    ${mobile({position: 'relative'})};
+    ${mobile({left: '20px'})};
+
 `
 
 export const ContainerNavbar = styled.nav`

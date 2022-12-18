@@ -167,5 +167,5 @@ export const BtnSeeAll2 = styled.button`
     ${mobile({justifyContent: 'center'})};
     ${mobile({fontSize: '15px'})};
     ${mobile({border: 'none'})};
-    ${mobile({width: '80%'})};
+    ${mobile({width: '300px'})};
 `

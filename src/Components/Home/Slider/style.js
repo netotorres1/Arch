@@ -32,6 +32,7 @@ export const ContentSliderParamour = styled.div`
     ${tablet({left: '70px'})};
 
     ${mobile({top: '20px'})};
+    ${tablet({left: '40px'})};
 `
 
 export const ImageHeroParamour = styled.img`

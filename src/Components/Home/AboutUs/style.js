@@ -35,7 +35,7 @@ export const ContainerText = styled.div`
     width: 300px;
     margin-left: 200px;
     ${tablet({position: 'relative'})};
-    ${tablet({right: '150px'})};
+    ${tablet({right: '165px'})};
    
     ${mobile({width: '350px'})};
 `
