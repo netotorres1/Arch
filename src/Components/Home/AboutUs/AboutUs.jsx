@@ -1,5 +1,5 @@
 import React from 'react'
-import {Container, ContainerContent, Img, ContainerText, Title, Btn} from './style'
+import {Container, ContainerContent, ContainerText, Title, Btn} from './style'
 import { Link } from 'react-router-dom'
 
 const AboutUs = () => {

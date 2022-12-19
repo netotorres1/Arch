@@ -206,7 +206,7 @@ export const Hypers = styled.div`
     ${tablet({height: '250px'})};
     ${tablet({backgroundImage: `url(${ImageHypersTablet})`})};
 
-    ${mobile({backgroundImage: `url(${Image228bMobile})`})};
+    ${mobile({backgroundImage: `url(${ImageHypersmobile})`})};
 `
 
 export const ProjectParamour = styled.div`
