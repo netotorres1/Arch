@@ -19,7 +19,7 @@ const Navbar = () => {
             <ContainerNavbar className={openMenu !== true ? '' : 'open'}>
                 <Link to={'/portifolio'}><BtnNavbar>Portfolio</BtnNavbar></Link>
                 <Link to={'/about'}><BtnNavbar>About Us</BtnNavbar></Link>
-                <BtnNavbar>Contact</BtnNavbar>
+                <Link to={'/contact'}><BtnNavbar>Contact</BtnNavbar></Link>
             </ContainerNavbar>
             <BtnMenuMobile onClick={handleOpen}>
               {openMenu !== true ? <MdMenu size={30} color='black'/> : <MdClose size={30} color='black' />}

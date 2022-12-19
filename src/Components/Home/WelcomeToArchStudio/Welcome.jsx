@@ -29,7 +29,7 @@ const Welcome = () => {
                         </TextContainerLeft>
                     </ContainerLeft>
                     <ContainerRight>
-                        <ImgContainerRight src={ImageWelcome} />
+                        <ImgContainerRight alt='Welcome' src={ImageWelcome} />
                     </ContainerRight>
                 </ContainerText>
             </ContainerWelcome>

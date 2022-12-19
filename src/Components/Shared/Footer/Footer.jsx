@@ -13,7 +13,7 @@ const Footer = () => {
             <ContainerNav>
                 <Link to={'/portifolio'}><NavItem>Portifolio</NavItem></Link>
                 <Link to={'/about'}><NavItem>About Us</NavItem></Link>
-                <NavItem>Contact</NavItem>
+                <Link to={'/contact'}><NavItem>Contact</NavItem></Link>
             </ContainerNav>
         </ContainerContent>
         <Link to={'/portifolio'}><BtnPortifolio>See Our Portifolio</BtnPortifolio></Link>
