@@ -1,6 +1,7 @@
 # Arch Studio multi-page website
 
-This is a challenge on the Frontend Mentor website, where I was able to put my knowledge into practice and demonstrate my skills with the technologies used.
+<p>This is a challenge on the Frontend Mentor website, where I was able to put my knowledge into practice and demonstrate my skills with the technologies used.</p>
+<b>The project code can be found in the Brach master</b>
 
 <h2>Technologies Used</h2>
 
