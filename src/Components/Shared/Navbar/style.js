@@ -6,6 +6,9 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+    ${mobile({position: 'fixed'})};
+    ${mobile({zIndex: '10'})};
+    ${mobile({background: 'white'})};
 `
 export const ContainerContent = styled.div`
     width: 75%;
