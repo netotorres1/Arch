@@ -43,6 +43,7 @@ export const ContainerNavbar = styled.nav`
     ${mobile({height: '280px'})};
     ${mobile({justifyContent: 'center'})};
     ${mobile({zIndex: '5'})};
+    ${mobile({boxShadow: '-200px 200px 0px 200px rgba(0,0,0,0.72)'})};
     &.open{
         ${mobile({display: 'flex'})};
     }
