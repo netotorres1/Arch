@@ -7,7 +7,7 @@ const Portifolio = () => {
         <div>
             <Navbar />
             <PortifolioComponent/>
-            <Footer />
+            <Footer /> 
         </div>
     )
 }
