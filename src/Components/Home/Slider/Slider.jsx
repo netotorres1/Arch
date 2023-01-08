@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container,ContainerContent,ImageHeroParamour, ImageHeroFederal, ImageHeroSeraph, ImageHeroTrinity, ContentSliderParamour, Btn, Text, Title } from './style'
+import { Container,ContainerContent,ImageHeroParamour, ImageHeroFederal, ImgArrow, ImageHeroSeraph, ImageHeroTrinity, ContentSliderParamour, Btn, Text, Title } from './style'
 import {SwiperSlide, Swiper} from 'swiper/react'
 import 'swiper/css';
 import 'swiper/css';
@@ -11,6 +11,8 @@ import Paramour from './../../../assets/home/desktop/image-hero-paramour.jpg'
 import Seraph from './../../../assets/home/desktop/image-hero-seraph.jpg'
 import Federal from './../../../assets/home/desktop/image-hero-federal.jpg'
 import Trinity from './../../../assets/home/desktop/image-hero-trinity.jpg'
+
+import IconArrow from './../../../assets/icons/icon-arrow-white.svg'
 import { Link } from 'react-router-dom';
 
 const Slider = () => {
@@ -31,8 +33,8 @@ const Slider = () => {
                         <Title>Project Paramour</Title>
                         <Text>Project made for an art museum near Southwest London. Project Paramour is 
                         a statement of bold, modern architecture.</Text>
-                        <Link to={'/portifolio'}><Btn>See Our Portfolio</Btn></Link>
-                    </ContentSliderParamour>
+                        <Link to={'/portifolio'}><Btn>See Our Portfolio<ImgArrow src={IconArrow} /></Btn></Link>
+                    </ContentSliderParamour> 
                 </SwiperSlide>
                 <SwiperSlide>
                     <ImageHeroSeraph src={Seraph}/>
@@ -41,7 +43,7 @@ const Slider = () => {
                         <Text>The Seraph Station project challenged us to design a unique station that would 
                         transport people through time. The result is a fresh and futuristic model 
                         inspired by space stations.</Text>
-                        <Link to={'/portifolio'}><Btn>See Our Portfolio</Btn></Link>
+                        <Link to={'/portifolio'}><Btn>See Our Portfolio<ImgArrow src={IconArrow} /></Btn></Link>
                     </ContentSliderParamour>
                 </SwiperSlide>
                 <SwiperSlide>
@@ -50,7 +52,7 @@ const Slider = () => {
                         <Title>Federal II Tower</Title>
                         <Text>A sequel theme project for a tower originally built in the 1800s. We achieved 
                         this with a striking look of brutal minimalism with modern touches.</Text>
-                        <Link to={'/portifolio'}><Btn>See Our Portfolio</Btn></Link>
+                        <Link to={'/portifolio'}><Btn>See Our Portfolio<ImgArrow src={IconArrow} /></Btn></Link>
                     </ContentSliderParamour>
                 </SwiperSlide>
                 <SwiperSlide>
@@ -60,7 +62,7 @@ const Slider = () => {
                         <Text>Trinity Bank challenged us to make a concept for a 84 story building located 
                             in the middle of a city with a high earthquake frequency. For this project we 
                             used curves to blend design and stability to meet our objectives.</Text>
-                        <Link to={'/portifolio'}><Btn>See Our Portfolio</Btn></Link>
+                        <Link to={'/portifolio'}><Btn>See Our Portfolio<ImgArrow src={IconArrow} /></Btn></Link>
                     </ContentSliderParamour>
                 </SwiperSlide>
             </Swiper>

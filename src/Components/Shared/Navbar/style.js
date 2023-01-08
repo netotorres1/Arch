@@ -34,8 +34,8 @@ export const ContainerNavbar = styled.nav`
     ${mobile({display: 'none'})};
     ${mobile({flexDirection: 'column'})};
     ${mobile({position: 'absolute'})};
-    ${mobile({top: '100px'})};
-    ${mobile({left: '30px'})};
+    ${mobile({top: '94px'})};
+    ${mobile({left: '60px'})};
     ${mobile({fontWeight: 'bold'})};
     
     ${mobile({background: '#EEEFF4'})};
@@ -57,7 +57,8 @@ export const BtnNavbar = styled.button`
 
     ${mobile({fontSize:'30px'})};
     ${mobile({fontWeight: '700'})};
-    ${mobile({padding:'20px'})};
+    ${mobile({padding:'10px'})};
+    ${mobile({marginLeft:'30px'})};
 
     &:hover{
         cursor: pointer;

@@ -34,6 +34,9 @@ export const ContentSliderParamour = styled.div`
     ${mobile({top: '20px'})};
     ${tablet({left: '40px'})};
 `
+export const ImgArrow = styled.img`
+    margin-left: 20px
+`
 
 export const ImageHeroParamour = styled.img`
     width: 100%;
@@ -89,4 +92,5 @@ export const Btn = styled.button`
     ${tablet({height: '50px'})};
 
     ${mobile({fontSize: '15px'})};
+    ${mobile({width: '200px'})};
 `

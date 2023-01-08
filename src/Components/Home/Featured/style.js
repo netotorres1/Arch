@@ -108,7 +108,9 @@ export const LinkProjects = styled.button`
     color: white;
     text-shadow:2px 2px 5px #000000;
 `
-
+export const ImgArrow = styled.img`
+    margin-left: 20px
+`
 export const Number = styled.h2`
     font-size: 150px;
     position: relative;

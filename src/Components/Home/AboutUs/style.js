@@ -15,7 +15,9 @@ export const Container = styled.div`
     ${mobile({marginTop: '100px'})};
     ${mobile({margi: '100px'})};
 `
-
+export const ImgArrow = styled.img`
+    margin-left: 20px
+`
 export const ContainerContent = styled.div`
     width: 75%;
     background-image: url(${ImageSmallTeam});

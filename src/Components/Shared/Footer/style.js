@@ -13,7 +13,9 @@ export const Container = styled.div`
     ${mobile({width: '380px'})};
     ${mobile({flexDirection: 'column'})};
 `
-
+export const ImgArrow = styled.img`
+    margin-left: 20px
+`
 export const ContainerContent = styled.div`
     width: 65%;
     display: flex;
