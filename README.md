@@ -10,8 +10,9 @@ RectJS | Styled-components | JavaScript | HTML | CSS
 <h2>Project <a href="https://magical-daffodil-dbe1bc.netlify.app/">link</a></h2>
 <hr>
 
-![home](https://user-images.githubusercontent.com/88563801/211187184-e15cdb5e-2c3c-4a64-9fc3-896af96312d6.PNG)
 
-![print2](https://user-images.githubusercontent.com/88563801/211187186-b1c1b664-6629-48c1-a921-1f9054c93910.PNG)
+![CapaArch](https://user-images.githubusercontent.com/88563801/212521770-948c58e7-6fb0-4676-8f62-adfda93f0548.png)
 
-![print3](https://user-images.githubusercontent.com/88563801/211187190-856f500c-588f-41ca-b082-9b486828c997.PNG)
+![capafooterarch](https://user-images.githubusercontent.com/88563801/212521774-cc0af4a9-bd21-40c5-a28e-bc30f6cc9dca.png)
+
+![mobilearch](https://user-images.githubusercontent.com/88563801/212521780-321f44d6-905a-4ff3-bb1b-dc4729cc53f3.png)
